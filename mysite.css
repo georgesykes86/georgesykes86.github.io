@@ -1,0 +1,41 @@
+/* Palette - coolors.co/fffc4c-ffffff-d8d6d6-7f7c7c-1a1e26 
+
+HSL
+$color1: hsla(59%, 100%, 65%, 1);
+$color2: hsla(0%, 0%, 100%, 1);
+$color3: hsla(0%, 3%, 84%, 1);
+$color4: hsla(0%, 1%, 49%, 1);
+$color5: hsla(220%, 19%, 13%, 1);
+
+RGB
+$color1: rgba(255, 252, 76, 1);
+$color2: rgba(255, 255, 255, 1);
+$color3: rgba(216, 214, 214, 1);
+$color4: rgba(127, 124, 124, 1);
+$color5: rgba(26, 30, 38, 1);*/
+
+img .lake {
+		-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    position: center;
+}
+
+.container {
+		display: grid;
+}
+
+#navbar {
+
+		color: #1a1e26;
+
+}
+
+#nav {
+		list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav li {
+		display: inline;
+}
