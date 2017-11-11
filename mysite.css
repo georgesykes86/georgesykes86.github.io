@@ -14,7 +14,7 @@ $color3: rgba(216, 214, 214, 1);
 $color4: rgba(127, 124, 124, 1);
 $color5: rgba(26, 30, 38, 1);*/
 
-img .lake {
+.lake {
 		-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
     position: center;
@@ -30,7 +30,7 @@ img .lake {
 
 }
 
-#nav {
+#nav ul{
 		list-style-type: none;
     margin: 0;
     padding: 0;
