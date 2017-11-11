@@ -30,12 +30,12 @@ $color5: rgba(26, 30, 38, 1);*/
 
 }
 
-#nav ul{
+ul{
 		list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-#nav li {
+li {
 		display: inline;
 }
