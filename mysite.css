@@ -49,7 +49,7 @@ body {
   position: absolute;
 }
 
-.nav li {
+.nav li a{
 	display: inline;
 	font-family: Verdana, Arial;
 	font-style: normal;
