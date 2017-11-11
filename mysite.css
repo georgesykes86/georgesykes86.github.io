@@ -27,6 +27,13 @@ body {
 
 .container {
 		display: grid;
+		grid-template-columns: [col1] 15% [col2] 70% [col3] 15%;
+    grid-template-rows: 35% 35% 20% 10%;
+    grid-template-areas: 
+    "challenge image challenge"
+    "me me me"
+    "contact contact contact"
+    "footer footer footer";
 }
 
 .navbar {
@@ -48,3 +55,20 @@ body {
 		font-style: normal;
 		text-align: right;
 }
+
+#challenge {
+	background-color:#7f7c7c;
+	grid-area: challenge;
+}
+
+#aboutme {
+	background-color:#ffffff;
+	grid-area: challenge;
+}
+
+#links {
+	background-color:#d8d6d6;
+	grid-area: challenge;
+}
+
+
