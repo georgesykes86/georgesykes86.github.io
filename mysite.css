@@ -14,7 +14,7 @@ $color3: rgba(216, 214, 214, 1);
 $color4: rgba(127, 124, 124, 1);
 $color5: rgba(26, 30, 38, 1);*/
 
-.lake {
+#lake {
 		-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
     position: center;
@@ -24,7 +24,7 @@ $color5: rgba(26, 30, 38, 1);*/
 		display: grid;
 }
 
-#navbar {
+.navbar {
 
 		color: #1a1e26;
 
