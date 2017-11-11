@@ -37,9 +37,8 @@ body {
 }
 
 .navbar {
-
 	background-color: #1a1e26;
-	position: relative;
+	position: fixed;
 }
 
 .nav ul{
@@ -54,7 +53,7 @@ body {
 	font-family: Verdana, Arial;
 	font-style: normal;
 	right: 0;
-	font-color: #fff;
+	color: #fff;
 	text-decoration: none;
 }
 
