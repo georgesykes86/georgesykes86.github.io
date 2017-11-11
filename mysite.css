@@ -26,16 +26,20 @@ $color5: rgba(26, 30, 38, 1);*/
 
 .navbar {
 
-		color: #1a1e26;
+		background-color: #1a1e26;
 
 }
 
-ul{
+.nav ul{
 		list-style-type: none;
     margin: 0;
     padding: 0;
+    color: #fff;
+    font-family: Verdana, Arial;
+    font-style: normal;
+    align-items: right;
 }
 
-li {
+.nav li {
 		display: inline;
 }
