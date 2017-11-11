@@ -19,41 +19,43 @@ body {
 }
 
 #lake {
-		-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
-    position: center;
-    margin: 0;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  position: center;
+  margin: 0;
 }
 
 .container {
-		display: grid;
-		grid-template-columns: [col1] 15% [col2] 70% [col3] 15%;
-    grid-template-rows: 35% 35% 20% 10%;
-    grid-template-areas: 
-    "challenge image challenge"
-    "me me me"
-    "contact contact contact"
-    "footer footer footer";
+	display: grid;
+	grid-template-columns: [col1] 15% [col2] 70% [col3] 15%;
+  grid-template-rows: 35% 35% 20% 10%;
+  grid-template-areas: 
+  "challenge image challenge"
+  "me me me"
+  "contact contact contact"
+  "footer footer footer";
 }
 
 .navbar {
 
-		background-color: #1a1e26;
-
+	background-color: #1a1e26;
+	position: relative;
 }
 
 .nav ul{
-		list-style-type: none;
-    margin: 0;
-    padding: 0;
+	list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
 }
 
 .nav li {
-		display: inline;
-		color: #fff;
-		font-family: Verdana, Arial;
-		font-style: normal;
-		text-align: right;
+	display: inline;
+	font-family: Verdana, Arial;
+	font-style: normal;
+	right: 0;
+	font-color: #fff;
+	text-decoration: none;
 }
 
 #challenge {
