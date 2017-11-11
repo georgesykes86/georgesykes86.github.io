@@ -14,10 +14,15 @@ $color3: rgba(216, 214, 214, 1);
 $color4: rgba(127, 124, 124, 1);
 $color5: rgba(26, 30, 38, 1);*/
 
+body {
+	margin: 0;
+}
+
 #lake {
 		-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
     position: center;
+    margin: 0;
 }
 
 .container {
@@ -34,12 +39,12 @@ $color5: rgba(26, 30, 38, 1);*/
 		list-style-type: none;
     margin: 0;
     padding: 0;
-    color: #fff;
-    font-family: Verdana, Arial;
-    font-style: normal;
-    align-items: right;
 }
 
 .nav li {
 		display: inline;
+		color: #fff;
+		font-family: Verdana, Arial;
+		font-style: normal;
+		text-align: right;
 }
