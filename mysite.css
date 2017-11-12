@@ -29,7 +29,7 @@ body {
 	grid-column: 1 / -1;
 	grid-row: 1 / 2;
 	background-color: #1a1e26;
-	/*position: fixed;*/
+	position: fixed;
 }
 
 .nav {
@@ -41,7 +41,6 @@ body {
 .nav li {
 	position: absolute;
 	display: inline;
-	right: 0;
 }
 
 .nav a{
