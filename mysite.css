@@ -108,7 +108,7 @@ footer {
 .overtxt {
 	 position: absolute; 
    top: 200px; 
-   left: 20%; 
+   left: 25%; 
    width: 50%;
    color: #fff;+
    background: rgb(0, 0, 0); /* fallback color */
@@ -120,4 +120,8 @@ footer {
    font: bold 24px/45px Verdana, Arial; 
    letter-spacing: -1px; 
    padding: 10px; 
+}
+
+#hidden {
+	display: none;
 }
