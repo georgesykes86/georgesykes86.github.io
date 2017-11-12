@@ -2,12 +2,12 @@ var advClicks = 1;
 
 
 function readMore() {
-    document.getElementById("hidden").style.display = "block";
+    document.getElementsByClassName("hidden-s1").style.display = "block";
     document.getElementById("adv-but").innerHTML = "Read less";
 }
 
 function readLess() {
-    document.getElementById("hidden").style.display = "none";
+    document.getElementsByClassName("hidden-s1").style.display = "none";
     document.getElementById("adv-but").innerHTML = "Read more";
 }
 
