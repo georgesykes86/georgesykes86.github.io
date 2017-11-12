@@ -72,6 +72,7 @@ body {
 	background-color:#7f7c7c;
 	grid-column: 1 / -1;
 	grid-row: 2 / 3;
+	text-align: center;
 }
 
 #aboutme {
@@ -109,14 +110,14 @@ footer {
    top: 15%; 
    left: 0; 
    width: 60%;
-   color: #fff;
+   color: #fff;+
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
 }
 
 #overtxt { 
    color: white; 
    font: bold 24px/45px Verdana, Arial; 
-   letter-spacing: -1px;  
-   background: rgb(0, 0, 0); /* fallback color */
-   background: rgba(0, 0, 0, 0.7);
+   letter-spacing: -1px; 
    padding: 10px; 
 }
