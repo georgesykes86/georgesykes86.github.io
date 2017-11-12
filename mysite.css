@@ -34,18 +34,19 @@ body {
 .nav {
 	list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 1em;
+  float: right;
 }
 
 .nav li {
 	position: absolute;
 	display: inline;
+	padding: 1em 2em 1em 2em;
 }
 
 .nav a{
 	font-family: Verdana, Arial;
 	font-style: normal;
-	right: 0;
 	color: #fff;
 	text-decoration: none;
 }
