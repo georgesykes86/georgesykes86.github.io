@@ -73,11 +73,9 @@ body {
 }
 
 #contact {
-	#aboutme {
 	background-color:#ffffff;
 	grid-columns: 1 / 3;
 	grid-row: 5;
-}
 }
 
 footer {
