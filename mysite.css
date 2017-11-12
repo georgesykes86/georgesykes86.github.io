@@ -69,4 +69,6 @@ body {
 	grid-row: 4;
 }
 
-
+footer {
+	grid-row: 5;
+}
