@@ -43,13 +43,14 @@ body {
 	/*position: fixed;*/
 }
 
-.nav ul{
+.nav ul li{
+	display: inline;
 	list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-.nav li a{
+.nav a{
 	display: inline;
 	font-family: Verdana, Arial;
 	font-style: normal;
