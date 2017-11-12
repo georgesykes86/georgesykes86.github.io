@@ -104,18 +104,19 @@ footer {
 	font-size: 8pt;
 }
 
-#text-overlay {
-	grid-column: 5 / 9;
-	grid-row: 2 / 3;
-	/*position: absolute;
-  /*display: none; */
-  top: 0; 
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0,0,0,0.5); 
-  z-index: 3; 
-  cursor: pointer;
-  vertical-align: middle;
+.overtxt {
+	 position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%;
 }
 
+
+.overtext span { 
+   color: white; 
+   font: bold 24px/45px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px; 
+}
