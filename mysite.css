@@ -16,6 +16,7 @@ $color5: rgba(26, 30, 38, 1);*/
 
 body {
 	margin: 0;
+	font-family: Helvetica, "Replica Light";
 }
 
 .container {
@@ -43,7 +44,6 @@ body {
 }
 
 .nav a{
-	font-family: Verdana, Arial;
 	font-style: normal;
 	color: #fff;
 	text-decoration: none;
@@ -98,30 +98,30 @@ footer {
 	grid-row: 6 / -1;
 }
 
-#readmore {
-	font-family: Verdana, Arial;
-	font-style: normal;
-	color: #fff;
-	font-size: 8pt;
-}
-
 .overtxt {
 	 position: absolute; 
    top: 200px; 
    left: 25%; 
    width: 50%;
-   color: #fff;+
+   color: #fff;
    background: rgb(0, 0, 0); /* fallback color */
    background: rgba(0, 0, 0, 0.55);
 }
 
 #overtxt { 
    color: white; 
-   font: bold 24px/45px Verdana, Arial; 
+   font: bold 24pt; 
    letter-spacing: -1px; 
    padding: 10px; 
 }
 
 #hidden {
 	display: none;
+	font: normal 20pt;
+}
+
+#adv-but {
+	font: normal 14pt;
+	color: #fff;
+	background: rgba(0, 0, 0, 0.0);
 }
