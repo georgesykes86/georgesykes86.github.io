@@ -107,7 +107,7 @@ footer {
 #text-overlay {
 	grid-column: 5 / 9;
 	grid-row: 2 / 3;
-	position: absolute;
+	/*position: absolute;
   /*display: none; */
   top: 0; 
   left: 0;
