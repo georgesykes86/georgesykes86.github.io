@@ -21,12 +21,11 @@ body {
 .container {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 10rem 50rem 40rem 30rem 30rem 20rem;
+  grid-template-rows: 2rem 50rem 40rem 30rem 30rem 20rem;
 }
 
 .navbar {
 	display: flex;
-	align-items: right;
 	grid-column: 1 / -1;
 	grid-row: 1 / 2;
 	background-color: #1a1e26;
@@ -40,11 +39,12 @@ body {
 }
 
 .nav li {
+	position: absolute;
 	display: inline;
+	right: 0;
 }
 
 .nav a{
-	display: inline;
 	font-family: Verdana, Arial;
 	font-style: normal;
 	right: 0;
