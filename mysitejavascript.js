@@ -19,10 +19,10 @@ function advButtonClick() {
 
 	if ( advClicks == 1) {
 		readMore();
-		advClicks == 2;
+		advClicks = 2;
 	} else {
 		readLess();
-		advClicks == 1;
+		advClicks = 1;
 	}
 
 }
