@@ -21,7 +21,7 @@ body {
 .container {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 4rem 40rem 30rem 20rem 30rem 20rem;
+  grid-template-rows: 3.5rem 45rem 30rem 20rem 30rem 20rem;
 }
 
 .navbar {
