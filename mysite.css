@@ -96,3 +96,25 @@ footer {
 	grid-column: 1 / -1;
 	grid-row: 6 / -1;
 }
+
+#readmore {
+	font-family: Verdana, Arial;
+	font-style: normal;
+	color: #fff;
+	font-size: 8pt;
+}
+
+#text-overlay {
+	grid-column: 5 / 9;
+	grid-row: 1 / 2;
+	/*position: fixed;
+  /*display: none; */
+  top: 0; 
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); 
+  z-index: 2; 
+  cursor: pointer;
+}
+
