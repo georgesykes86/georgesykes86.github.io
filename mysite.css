@@ -34,7 +34,7 @@ body {
 
 .navbar {
 	grid-column: 1 / 3;
-	grid-row: 1;
+	grid-row: 1 / 1;
 	background-color: #1a1e26;
 	/*position: fixed;*/
 }
