@@ -18,23 +18,15 @@ body {
 	margin: 0;
 }
 
-#lake {
-	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
-	grid-column-start: 2;
-	grid-column-end: 3;
-	grid-row-start: 2;
-	grid-row-end: 3;
-  margin: 0;
-}
-
 .container {
 	display: grid;
-	grid-template-columns: 15% 70% 15%;
-  grid-template-rows: auto;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 10rem 50rem 40rem 30rem 30rem 20rem;
 }
 
 .navbar {
+	display: flex;
+	align-items: right;
 	grid-column-start: 1;
 	grid-column-end: 4;
 	grid-row-start: 1;
@@ -57,6 +49,20 @@ body {
 	right: 0;
 	color: #fff;
 	text-decoration: none;
+}
+
+.img-container {
+	position: relative;
+	grid-column: 2 / 12;
+	grid-row: 2 / 3;
+}
+
+#lake {
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  margin: 0;
+  position: absolute;
+	width: 100%;
 }
 
 #challenge {
