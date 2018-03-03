@@ -70,8 +70,9 @@ body {
 }
 
 #lake {
-	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
+/*	-webkit-filter: grayscale(100%);  Safari 6.0 - 9.0 
+  filter: grayscale(100%); 
+  UNCOMENT FOR B&W*/ 
   margin: 0;
 	height: 100%;
 }
@@ -116,24 +117,25 @@ footer {
 
 .overtxt {
 	 position: absolute; 
-   top: 200px; 
+   top: 5rem; 
    left: 25%; 
    width: 50%;
    color: #fff;
    background: rgb(0, 0, 0); /* fallback color */
    background: rgba(0, 0, 0, 0.55);
+   font-weight: normal;
 }
 
 #overtxt { 
    color: white; 
-   font: bold 24pt; 
+   font-size: 24pt; 
    letter-spacing: -1px; 
    padding: 10px; 
 }
 
 .hidden-s1 {
 	display: none;
-	font: normal 20pt;
+	font-size: 20pt;
 }
 
 #adv-but {
@@ -144,4 +146,5 @@ footer {
     font: inherit;
     cursor: pointer;
     outline: inherit;
+    font-size: 12pt;
 }
