@@ -14,18 +14,16 @@ $color3: rgba(216, 214, 214, 1);
 $color4: rgba(127, 124, 124, 1);
 $color5: rgba(26, 30, 38, 1);*/
 
-* {
-	box-sizing: border-box;
-}
 
 body {
 	margin: 0;
 	font-family: Helvetica, "Replica Light";
+	box-sizing: border-box;
 }
 
 .container {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-columns: repeat(12, [col-start] 1fr);
   grid-template-rows: 3.5rem 45rem 30rem 20rem 30rem 20rem;
 }
 
@@ -36,6 +34,7 @@ body {
 	background-color: #1a1e26;
 	position: fixed;
 	top: 0;
+	overflow: hidden;
 }
 
 .nav {
@@ -56,6 +55,8 @@ body {
 	text-decoration: none;
 	text-align: center;
 }
+
+
 
 .img-container {
 	text-align: center;
