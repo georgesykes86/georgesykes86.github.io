@@ -14,6 +14,10 @@ $color3: rgba(216, 214, 214, 1);
 $color4: rgba(127, 124, 124, 1);
 $color5: rgba(26, 30, 38, 1);*/
 
+* {
+	box-sizing: border-box;
+}
+
 body {
 	margin: 0;
 	font-family: Helvetica, "Replica Light";
@@ -30,6 +34,7 @@ body {
 	grid-row: 1 / 2;
 	background-color: #1a1e26;
 	position: fixed;
+	top: 0;
 }
 
 .nav {
@@ -53,6 +58,7 @@ body {
 
 .img-container {
 	text-align: center;
+	margin-top: 3.5rem;
 }
 
 #lake {
