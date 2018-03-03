@@ -64,14 +64,14 @@ body {
 
 .img-container {
 	text-align: center;
-	margin-top: 3.5rem;
+	margin-top: auto;
 }
 
 #lake {
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
   margin: 0;
-	/*height: 100%;*/
+	height: 100%;
 }
 
 #challenge {
