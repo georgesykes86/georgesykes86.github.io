@@ -33,7 +33,16 @@ body {
 	position: fixed;
 	top: 0;
 	overflow: hidden;
-	float: right;
+}
+
+.navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar li {
+	float: left;
 }
 
 .navbar a{
@@ -42,6 +51,11 @@ body {
 	color: #fff;
 	text-decoration: none;
 	text-align: center;
+}
+
+.navbar a:hover {
+	background-color: rgba(216, 214, 214, 1);
+	color: #1a1e26;
 }
 
 .img-container {
