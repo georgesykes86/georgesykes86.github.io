@@ -120,9 +120,12 @@ body {
 footer {
 	grid-column: 1 / -1;
 	grid-row: 5 / -1;
-	background-color: #1a1e26
-	color:#ffffff;
+	background-color: #1a1e26;
 	text-align: center;
+}
+
+footer p {
+	color:#ffffff;
 	font-style: normal;
 }
 
@@ -184,7 +187,6 @@ footer {
 }
 
 .small_img {
-  max-width: 100%;
   height: auto;
   max-height: 100%;
   width: auto;
