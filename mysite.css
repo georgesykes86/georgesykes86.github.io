@@ -96,6 +96,9 @@ body {
 	background-color:#ffffff;
 	grid-column: 1 / -1;
 	grid-row: 2 / 3;
+	display: grid;
+	grid-template-columns: repeat(12, [col-start] 1fr);
+  grid-template-rows: 25% 25% 25% 25%;
 }
 
 #links {
@@ -135,7 +138,7 @@ footer {
 
 .hidden-s1 {
 	display: none;
-	font-size: 20pt;
+	font-size: 17pt;
 }
 
 #adv-but {
@@ -147,4 +150,8 @@ footer {
     cursor: pointer;
     outline: inherit;
     font-size: 12pt;
+}
+
+.big-circle-image{
+	border-radius: 50%;
 }
