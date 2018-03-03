@@ -66,31 +66,31 @@ body {
   justify-content: center;
 	background-color:#7f7c7c;
 	grid-column: 1 / -1;
-	grid-row: 2 / 3;
+	grid-row: 1 / 2;
 	text-align: center;
 }
 
 #aboutme {
 	background-color:#ffffff;
 	grid-column: 1 / -1;
-	grid-row: 3 / 4;
+	grid-row: 2 / 3;
 }
 
 #links {
 	background-color:#d8d6d6;
 	grid-column: 1 / -1;
-	grid-row: 4 / 5;
+	grid-row: 3 / 4;
 }
 
 #contact {
 	background-color:#ffffff;
 	grid-column: 1 / -1;
-	grid-row: 5 / 6;
+	grid-row: 4 / 5;
 }
 
 footer {
 	grid-column: 1 / -1;
-	grid-row: 6 / -1;
+	grid-row: 5 / -1;
 }
 
 .overtxt {
