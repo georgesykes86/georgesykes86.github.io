@@ -35,28 +35,16 @@ body {
 	position: fixed;
 	top: 0;
 	overflow: hidden;
+	float: right;
 }
 
-.nav {
-	list-style-type: none;
-  margin: 0;
-  padding: 1em;
-  float: right;
-}
-
-/*.nav li {
-	display: inline;
-	padding: 0.5em 1em 0.5em 1em;
-}*/
-
-.nav a{
+.navbar a{
+	display: block;
 	font-style: normal;
 	color: #fff;
 	text-decoration: none;
 	text-align: center;
 }
-
-
 
 .img-container {
 	text-align: center;
