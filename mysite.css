@@ -155,8 +155,10 @@ footer {
 #centre-image {
 	grid-column: 4/ span 3;
 	grid-row: 6/ span 10;
-	vertical-align: middle;
-	text-align:center;
+	display: flex;
+	margin: auto;
+	justify-content: center;
+	align-items: center;
 }
 
 #prof-pic{
@@ -165,5 +167,74 @@ footer {
   -webkit-border-radius: 50%;
   -o-border-radius: 50%;
   max-width: 100%;
-  max-height: 100%;
+  height: auto;
+  border: 0.3rem solid rgba(255, 252, 76, 1);
+  min-width: 0;
+  min-height: 0;
+}
+
+.small_img {
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -o-border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+  border: 0.3rem solid rgba(255, 252, 76, 1);
+  min-width: 0;
+  min-height: 0;
+}
+
+#im1 {
+	grid-column: 5/ span 1;
+	grid-row: 3/ span 2;
+	display: flex;
+	margin: auto;
+	justify-content: center;
+	align-items: center;
+}
+
+#im2 {
+	grid-column: 8/ span 1;
+	grid-row: 6/ span 2;
+	display: flex;
+	margin: auto;
+	justify-content: center;
+	align-items: center;
+}
+
+#im3 {
+	grid-column: 8/ span 1;
+	grid-row: 14/ span 2;
+	display: flex;
+	margin: auto;
+	justify-content: center;
+	align-items: center;
+}
+
+#im4 {
+	grid-column: 5/ span 1;
+	grid-row: 17/ span 2;
+	display: flex;
+	margin: auto;
+	justify-content: center;
+	align-items: center;
+}
+
+#im5 {
+	grid-column: 2/ span 1;
+	grid-row: 14/ span 2;
+	display: flex;
+	margin: auto;
+	justify-content: center;
+	align-items: center;
+}
+
+#im6 {
+	grid-column: 2/ span 1;
+	grid-row: 6/ span 2;
+	display: flex;
+	margin: auto;
+	justify-content: center;
+	align-items: center;
 }
