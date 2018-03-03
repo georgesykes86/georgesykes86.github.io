@@ -24,7 +24,7 @@ body {
 .container {
 	display: grid;
 	grid-template-columns: repeat(12, [col-start] 1fr);
-  grid-template-rows: 45rem 45rem 20rem 30rem 20rem;
+  grid-template-rows: 45rem 45rem 20rem 30rem 5rem;
 }
 
 .navbar {
@@ -102,9 +102,13 @@ body {
 }
 
 #links {
-	background-color:#d8d6d6;
+	background-color:#fffc4c;
+	color: #1a1e26;
 	grid-column: 1 / -1;
 	grid-row: 3 / 4;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 #contact {
@@ -116,6 +120,10 @@ body {
 footer {
 	grid-column: 1 / -1;
 	grid-row: 5 / -1;
+	background-color: #1a1e26
+	color:#ffffff;
+	text-align: center;
+	font-style: normal;
 }
 
 .overtxt {
