@@ -98,7 +98,7 @@ body {
 	grid-row: 2 / 3;
 	display: grid;
 	grid-template-columns: repeat(9, [col-start] 1fr);
-  grid-template-rows: 10% 20% 20% 20% 20% 10%;
+  grid-template-rows: repeat(20, [row-start] 1fr);
 }
 
 #links {
@@ -153,8 +153,10 @@ footer {
 }
 
 #centre-image {
-	grid-column: 4/ 7;
-	grid-row: 3/ 5;
+	grid-column: 4/ span 3;
+	grid-row: 6/ span 10;
+	vertical-align: middle;
+	text-align:center;
 }
 
 #prof-pic{
@@ -162,4 +164,6 @@ footer {
 	-moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   -o-border-radius: 50%;
+  max-width: 100%;
+  max-height: 100%;
 }
