@@ -44,10 +44,10 @@ body {
   float: right;
 }
 
-.nav li {
+/*.nav li {
 	display: inline;
 	padding: 0.5em 1em 0.5em 1em;
-}
+}*/
 
 .nav a{
 	font-style: normal;
