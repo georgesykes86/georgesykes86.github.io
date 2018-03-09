@@ -257,5 +257,15 @@ footer p {
 
 .link-container {
 	height: 70%;
+	align-items:center;
+}
+
+.link-container img {
+	height:60%;
+}
+
+.link-container span {
+
+	font-size: 18pt;
 }
 
