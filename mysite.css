@@ -258,14 +258,16 @@ footer p {
 .link-container {
 	height: 70%;
 	align-items:center;
+	justify-content:center;
 }
 
 .link-container img {
 	height:60%;
+	display: block;
 }
 
 .link-container span {
-
+	display: block;
 	font-size: 18pt;
 }
 
