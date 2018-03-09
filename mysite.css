@@ -271,8 +271,17 @@ footer p {
 	width: 100%;
 }
 
-.link-container span {
+.link-container a {
+	width:80%;
 	display: block;
 	font-size: 18pt;
+	border-width: medium;
+	border-radius:50%;
+
 }
 
+.link-container a:hover {
+	background: #7f7c7c;
+	border-color:#7f7c7c;
+	color:#ffffff;
+}
