@@ -117,7 +117,7 @@ body {
 	grid-column: 1 / -1;
 	grid-row: 4 / 5;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-evenly;
 }
 
 footer {
@@ -315,4 +315,5 @@ footer p {
 	text-decoration:none;
 	color: white;
 	display: inline;
+	padding: 1em;
 }
