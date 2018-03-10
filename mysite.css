@@ -196,6 +196,7 @@ footer p {
   min-width: 0;
   min-height: 0;
   object-fit: contain;
+  overflow: hidden;
 }
 
 #im1 {
