@@ -191,7 +191,6 @@ footer p {
   height: auto;
   max-height: 100%;
   width: auto;
-  min-width: 0;
   min-height: 0;
   object-fit: contain;
 }
@@ -302,7 +301,7 @@ footer p {
 
 .contact-container img {
 	height:100%;
-	display: in-line;
+	display: inline;
 	width: auto;
 }
 
@@ -312,4 +311,5 @@ footer p {
 	font-size: 1vw;
 	text-decoration:none;
 	color: white;
+	display: inline;
 }
