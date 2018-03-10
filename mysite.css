@@ -298,7 +298,6 @@ footer p {
 	align-items:center;
 	justify-content:center;
 	text-align: center;
-	flex-wrap: wrap;
 	max-width: 30%;
 }
 
