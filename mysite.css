@@ -275,7 +275,7 @@ footer p {
 .link-container a {
 	width:80%;
 	display: block;
-	font-size: 60vw;
+	font-size: 1vw;
 	border-style: solid;
 	border-width: medium;
 	border-radius:40%;
@@ -288,4 +288,28 @@ footer p {
 	background: #7f7c7c;
 	border-color:#7f7c7c;
 	color:#ffffff;
+}
+
+.contact-container {
+	display: flex;
+	height: 30%;
+	align-items:center;
+	justify-content:center;
+	text-align: center;
+	flex-wrap: wrap;
+	max-width: 25%;
+}
+
+.contact-container img {
+	height:100%;
+	display: in-line;
+	width: auto;
+}
+
+.contact-container a, span {
+	width:80%;
+	display: block;
+	font-size: 1vw;
+	text-decoration:none;
+	color: white;
 }
