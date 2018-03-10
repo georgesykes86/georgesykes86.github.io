@@ -309,7 +309,7 @@ footer p {
 	border-style: solid;
 	border-width: medium;
 	border-radius:5%;
-	border-color::grey;
+	border-color:#7f7c7c;
 }
 
 #well-right {
@@ -318,7 +318,7 @@ footer p {
 	margin: 0.5em;
 	border-width: medium;
 	border-radius:5%;
-	border-color::grey;
+	border-color:#7f7c7c;
 }
 
 
