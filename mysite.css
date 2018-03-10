@@ -102,7 +102,7 @@ body {
 }
 
 #links {
-	background-color:#fffc4c;
+	background-color:#d8d6d6;
 	color: #1a1e26;
 	grid-column: 1 / -1;
 	grid-row: 3 / 4;
@@ -301,3 +301,25 @@ footer p {
 	display: inline;
 	padding: 1em;
 }
+
+#left-well {
+	grid-column: 1/ span 2;
+	grid-row: 3/ span 16;
+	margin: 0.5em;
+	border-style: solid;
+	border-width: medium;
+	border-radius:5%;
+	border-color::#7f7c7c;
+}
+
+#right-well {
+	grid-column: 1/ span 2;
+	grid-row: 3/ span 16;
+	margin: 0.5em;
+	border-width: medium;
+	border-radius:5%;
+	border-color::#7f7c7c;
+}
+
+
+
