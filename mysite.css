@@ -190,6 +190,12 @@ footer p {
   overflow: hidden;
 }
 
+.icon-cont {
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+
 .small_img {
   height: auto;
   max-height: 100%;
