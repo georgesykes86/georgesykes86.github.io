@@ -306,7 +306,7 @@ footer p {
 	width: auto;
 }
 
-.contact-container a, span {
+.contact-container a, .contact-container span {
 	width:80%;
 	display: block;
 	font-size: 1vw;
