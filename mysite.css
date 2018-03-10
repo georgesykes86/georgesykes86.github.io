@@ -302,7 +302,7 @@ footer p {
 	padding: 1em;
 }
 
-#left-well {
+#well-left {
 	grid-column: 1/ span 2;
 	grid-row: 3/ span 16;
 	margin: 0.5em;
@@ -312,7 +312,7 @@ footer p {
 	border-color::#7f7c7c;
 }
 
-#right-well {
+#well-right {
 	grid-column: 1/ span 2;
 	grid-row: 3/ span 16;
 	margin: 0.5em;
