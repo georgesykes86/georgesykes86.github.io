@@ -24,7 +24,7 @@ body {
 .container {
 	display: grid;
 	grid-template-columns: repeat(12, [col-start] 1fr);
-  grid-template-rows: 45rem 45rem 20rem 100rem 15rem 5rem;
+  grid-template-rows: 45rem 45rem 20rem fit-content(120em) 15rem 5rem;
 }
 
 .navbar {
@@ -313,47 +313,53 @@ footer p {
 
 #well-left {
 	grid-column: 1/ span 2;
-	grid-row: 3/ span 16;
+	grid-row: 3/ auto;
 	margin: 0.5em;
 	border-style: solid;
 	border-width: medium;
 	border-radius:5%;
 	border-color:#7f7c7c;
+	background-color: #7f7c7c ;
 	visibility: hidden;
 }
 
 #well-right {
 	grid-column: 8/ span 2;
-	grid-row: 3/ span 16;
+	grid-row: 3/ auto;
 	margin: 0.5em;
 	border-style: solid;
 	border-width: medium;
 	border-radius:5%;
 	border-color:#7f7c7c;
 	visibility: hidden;
+
 }
 
 .am_container {
 	display: none;
 	width: 100%;
+	padding:1em 0.5em 1em 0.5em;
+	text-align: center;
+	font-size: 1vw;
+	color: #fff;
 }
 
 .row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-    justify-content:center;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 4px;
+  justify-content:center;
 }
 
 .column {
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
 }
 
 .column img {
-    margin-top: 8px;
-    vertical-align: middle;
+  margin-top: 8px;
+  vertical-align: middle;
 }
 
 .photo {
