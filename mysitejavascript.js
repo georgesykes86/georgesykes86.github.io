@@ -50,7 +50,7 @@ $(function() {
 });
 
 $(function() {
-  $('#feducation').hover(function() {
+  $('#education').hover(function() {
     $('#well-right').css('visibility', 'visible');
     $('#edu_det').css('visibility', 'visible');
   }, function() {
