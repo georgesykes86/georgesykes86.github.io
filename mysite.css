@@ -339,12 +339,16 @@ footer p {
 	width: 100%;
 	height: auto;
 	padding:1em 0.5em 1em 0.5em;
-	font-size: 1.5vw;
+	font-size: 1vw;
 	color: #fff;
 	background-color: #7f7c7c;
 	border-radius:10%;
 	box-sizing: border-box;
 	max-height:100%;
+}
+
+.am_container ul {
+	list-style-type: none;
 }
 
 .row {
