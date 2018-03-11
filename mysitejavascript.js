@@ -28,15 +28,7 @@ function advButtonClick() {
 }
 
 $(function() {
-  $('#family').hover(function() {
-    $('#well-right').css('visibility', 'visible');
-    $('#family_det').css('display', 'block');
-  }, function() {
-    // on mouseout, reset the background colour
-    $('#well-right').css('visibility', 'hidden');
-    $('#family_det').css('display', 'none');
-  });
-  $('#family').onclick(function() {
+  $('#family').click(function() {
     $('#well-right').css('visibility', 'visible');
     $('#family_det').css('display', 'block');
   }, function() {
@@ -47,15 +39,7 @@ $(function() {
 });
 
 $(function() {
-  $('#address').hover(function() {
-    $('#well-right').css('visibility', 'visible');
-    $('#address_det').css('display', 'block');
-  }, function() {
-    // on mouseout, reset the background colour
-    $('#well-right').css('visibility', 'hidden');
-    $('#address_det').css('display', 'none');
-  });
-  $('#address').onclick(function() {
+  $('#address').click(function() {
     $('#well-right').css('visibility', 'visible');
     $('#address_det').css('display', 'block');
   }, function() {
@@ -66,15 +50,7 @@ $(function() {
 });
 
 $(function() {
-  $('#education').hover(function() {
-    $('#well-right').css('visibility', 'visible');
-    $('#edu_det').css('display', 'block');
-  }, function() {
-    // on mouseout, reset the background colour
-    $('#well-right').css('visibility', 'hidden');
-    $('#edu_det').css('display', 'none');
-  });
-  $('#education').onclick(function() {
+  $('#education').click(function() {
     $('#well-right').css('visibility', 'visible');
     $('#edu_det').css('display', 'block');
   }, function() {
@@ -85,15 +61,7 @@ $(function() {
 });
 
 $(function() {
-  $('#work').hover(function() {
-    $('#well-left').css('visibility', 'visible');
-    $('#jobs_det').css('display', 'block');
-  }, function() {
-    // on mouseout, reset the background colour
-    $('#well-left').css('visibility', 'hidden');
-    $('#jobs_det').css('display', 'none');
-  });
-  $('#work').onclick(function() {
+  $('#work').click(function() {
     $('#well-left').css('visibility', 'visible');
     $('#jobs_det').css('display', 'block');
   }, function() {
@@ -105,15 +73,7 @@ $(function() {
 
 
 $(function() {
-  $('#sport').hover(function() {
-    $('#well-left').css('visibility', 'visible');
-    $('#sport_det').css('display', 'block');
-  }, function() {
-    // on mouseout, reset the background colour
-    $('#well-left').css('visibility', 'hidden');
-    $('#sport_det').css('display', 'none');
-  });
-  $('#sport').onclick(function() {
+  $('#sport').click(function() {
     $('#well-left').css('visibility', 'visible');
     $('#sport_det').css('display', 'block');
   }, function() {
@@ -124,15 +84,7 @@ $(function() {
 });
 
 $(function() {
-  $('#films').hover(function() {
-    $('#well-left').css('visibility', 'visible');
-    $('#film_det').css('display', 'block');
-  }, function() {
-    // on mouseout, reset the background colour
-    $('#well-left').css('visibility', 'hidden');
-    $('#film_det').css('display', 'none');
-  });
-  $('#films').onclick(function() {
+  $('#films').click(function() {
     $('#well-left').css('visibility', 'visible');
     $('#film_det').css('display', 'block');
   }, function() {
