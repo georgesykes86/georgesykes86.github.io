@@ -1,4 +1,4 @@
-$(document).ready(){
+$(document).ready( function() {
 	$(".small_img").one("click", handler1);
 
 	var advClicks = 1;
@@ -95,7 +95,7 @@ $(document).ready(){
 
 
 
-}
+});
 
 
 
