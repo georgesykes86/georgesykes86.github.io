@@ -24,7 +24,7 @@ body {
 .container {
 	display: grid;
 	grid-template-columns: repeat(12, [col-start] 1fr);
-  grid-template-rows: 45rem 45rem 20rem 15rem 5rem;
+  grid-template-rows: 45rem 45rem 20rem 80rem 15rem 5rem;
 }
 
 .navbar {
@@ -111,6 +111,11 @@ body {
 	justify-content: center;
 }
 
+#photos {
+	display: flex;
+	background-color:#fff;
+}
+
 #contact {
 	display: flex;
 	background-color:#7f7c7c;
@@ -184,7 +189,7 @@ footer p {
   max-width: 100%;
   max-height: 100%;
   height: auto;
-  border: 0.3rem solid rgba(255, 252, 76, 1);
+  border: 0.3rem solid #7f7c7c;
   min-width: 0;
   min-height: 0;
   overflow: hidden;
@@ -310,15 +315,22 @@ footer p {
 	border-width: medium;
 	border-radius:5%;
 	border-color:#7f7c7c;
+	visibility: hidden;
 }
 
 #well-right {
 	grid-column: 8/ span 2;
 	grid-row: 3/ span 16;
 	margin: 0.5em;
+	border-style: solid;
 	border-width: medium;
 	border-radius:5%;
 	border-color:#7f7c7c;
+	visibility: hidden;
+}
+
+.am_container {
+	visibility: hidden;
 }
 
 
