@@ -105,7 +105,7 @@ body {
 	background-color:#d8d6d6;
 	color: #1a1e26;
 	grid-column: 1 / -1;
-	grid-row: 4 / 5;
+	grid-row: 3/ 4;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -117,7 +117,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	grid-column: 1 / -1;
-	grid-row: 3 / 5;
+	grid-row: 4/ 5;
 }
 
 #contact {
@@ -131,7 +131,7 @@ body {
 
 footer {
 	grid-column: 1 / -1;
-	grid-row: 5 / -1;
+	grid-row: 6 / -1;
 	background-color: #1a1e26;
 	text-align: center;
 }
