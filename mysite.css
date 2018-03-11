@@ -320,7 +320,6 @@ footer p {
 	border-radius:5%;
 	border-color:#fff;
 	background-color: #fff ;
-	visibility: hidden;
 }
 
 #well-right {
@@ -332,7 +331,6 @@ footer p {
 	border-radius:5%;
 	border-color:#fff;
 	background-color: #fff;
-	visibility: hidden;
 	box-sizing: border-box;
 }
 
