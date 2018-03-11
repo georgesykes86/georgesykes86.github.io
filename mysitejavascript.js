@@ -93,3 +93,4 @@ $(function() {
     $('#film_det').css('visibility', 'hidden');
   });
 });
+
