@@ -344,6 +344,7 @@ footer p {
 	background-color: #7f7c7c;
 	border-radius:10%;
 	box-sizing: border-box;
+	max-height:100%;
 }
 
 .row {
