@@ -33,27 +33,27 @@ $(document).ready( function() {
 
 	function handler1() {
 		switch(this.id) {
-	    case "#family":
+	    case "family":
 				$('#well-right').css('visibility', 'visible');
 				$('#family_det').css('display', 'block');
 	        break;
-	    case "#address":
+	    case "address":
 	      $('#well-right').css('visibility', 'visible');
 	      $('#address_det').css('display', 'block');
 	        break;
-	    case "#education":
+	    case "education":
 	     	$('#well-right').css('visibility', 'visible');
 	      $('#edu_det').css('display', 'block');
 	        break;
-	    case "#work":
+	    case "work":
 	     	$('#well-left').css('visibility', 'visible');
 	     	$('#jobs_det').css('display', 'block');
 	        break;
-	    case "#sport":
+	    case "sport":
 	    	$('#well-left').css('visibility', 'visible');
 	    	$('#sport_det').css('display', 'block');
 	        break;
-	    case "#films":
+	    case "films":
 	      $('#well-left').css('visibility', 'visible');
 	     	$('#film_det').css('display', 'block');
 	        break;
@@ -64,27 +64,27 @@ $(document).ready( function() {
 
 	function handler2() {
 		switch(this.id) {
-		  case "#family":
+		  case "family":
 				$('#well-right').css('visibility', 'hidden');
 				$('#family_det').css('display', 'none');
 		      break;
-		  case "#address":
+		  case "address":
 		    $('#well-right').css('visibility', 'hidden');
 		    $('#address_det').css('display', 'none');
 		      break;
-		  case "#education":
+		  case "education":
 		   	$('#well-right').css('visibility', 'hidden');
 		    $('#edu_det').css('display', 'none');
 		      break;
-		  case "#work":
+		  case "work":
 		   	$('#well-left').css('visibility', 'hidden');
 		   	$('#jobs_det').css('display', 'none');
 		      break;
-		  case "#sport":
+		  case "sport":
 		  	$('#well-left').css('visibility', 'hidden');
 		  	$('#sport_det').css('display', 'none');
 		      break;
-		  case "#films":
+		  case "films":
 		    $('#well-left').css('visibility', 'hidden');
 		   	$('#film_det').css('display', 'none');
 		      break;
