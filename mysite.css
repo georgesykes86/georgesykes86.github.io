@@ -24,7 +24,7 @@ body {
 .container {
 	display: grid;
 	grid-template-columns: repeat(12, [col-start] 1fr);
-  grid-template-rows: 45rem 45rem 20rem 80rem 15rem 5rem;
+  grid-template-rows: 45rem 45rem 20rem 100rem 15rem 5rem;
 }
 
 .navbar {
@@ -334,13 +334,15 @@ footer p {
 }
 
 .am_container {
-	visibility: hidden;
+	display: none;
+	width: 100%;
 }
 
 .row {
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
+    justify-content:center;
 }
 
 .column {
