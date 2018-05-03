@@ -18,7 +18,7 @@ $(document).ready( function() {
 	    document.getElementById("adv-but").innerHTML = "Read more";
 	}
 
-	$("button.adv-but").click(function advButtonClick() {
+	$("button[id='adv-but']").click(function advButtonClick() {
 
 		if ( advClicks == 1) {
 			readMore();
