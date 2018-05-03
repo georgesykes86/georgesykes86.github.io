@@ -18,7 +18,7 @@ $(document).ready( function() {
 	    document.getElementById("adv-but").innerHTML = "Read more";
 	}
 
-	function advButtonClick() {
+	$("button.adv-but").click(function advButtonClick() {
 
 		if ( advClicks == 1) {
 			readMore();
@@ -28,7 +28,7 @@ $(document).ready( function() {
 			advClicks = 1;
 		}
 
-	}
+	});
 
 
 	function handler1() {
@@ -64,6 +64,3 @@ $(document).ready( function() {
 
 
 });
-
-
-
